@@ -23,7 +23,8 @@ ${ROOT}
 You need to follow directory structure of the `data` as below.  
 ```  
 ${ROOT}  
-|-- data  
+|-- data 
+|   |-- J_regressor_extra.npy 
 |   |-- CrowdPose
 |   |   |-- annotations
 |   |   |-- images
@@ -55,6 +56,7 @@ ${ROOT}
 |   |   |   |-- 3DPW_validation_crowd_hhrnet_result.json
 |   |   |-- imageFiles
 ```  
+* Download `J_regressor_extra.npy` [[data](https://drive.google.com/file/d/1B9e65ahe6TRGv7xE45sScREAAznw9H4t/view?usp=sharing)]
 * Download CrowdPose data [[data](https://drive.google.com/drive/folders/1qV5Cx5DJLhJVXlfB0vmQrB3ndJXsTZVM?usp=sharing)]
 * Download Human3.6M parsed data and SMPL parameters [[data](https://drive.google.com/drive/folders/1kgVH-GugrLoc9XyvP6nRoaFpw3TmM5xK?usp=sharing)][[SMPL parameters from SMPLify-X](https://drive.google.com/drive/folders/1s-yywb4zF_OOLMmw1rsYh_VZFilgSrrD?usp=sharing)]
 * Download MuCo parsed/composited data and SMPL parameters [[data](https://drive.google.com/drive/folders/1yL2ey3aWHJnh8f_nhWP--IyC9krAPsQN?usp=sharing)][[SMPL parameters from SMPLify-X](https://drive.google.com/drive/folders/1_JrrbHZICDTe1lqi8S6D_Y1ObmrerAoU?usp=sharing)] 

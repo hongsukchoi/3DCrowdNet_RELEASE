@@ -3,7 +3,7 @@
 
 
 ## News
-:muscle: 3DCrowdNet achieves the **state-of-the-art accuracy** on **[3DPW](https://virtualhumans.mpi-inf.mpg.de/3DPW/)** (3D POSES IN THE WILD DATASET)!
+:muscle: 3DCrowdNet achieves the **state-of-the-art accuracy** on **[3DPW](https://virtualhumans.mpi-inf.mpg.de/3DPW/)** (3D POSES IN THE WILD DATASET)!  
 :muscle: We improved **PA-MPJPE** to **51.1mm** and **MPVPE** to **97.6mm** using a ResNet 50 backbone!
 
 ## Introduction  
@@ -16,10 +16,13 @@ Then, run `sh requirements.sh`. You should slightly change `torchgeometry` kerne
   
   
 ## Quick demo  
+### Preparing
 * Download the pre-trained 3DCrowdNet checkpoint from [here](https://drive.google.com/drive/folders/1YYQHbtxvdljqZNo8CIyFOmZ5yXuwtEhm?usp=sharing) and place it under `${ROOT}/demo/`. 
 * Download demo inputs from [here](https://drive.google.com/drive/folders/1YYQHbtxvdljqZNo8CIyFOmZ5yXuwtEhm?usp=sharing) and place them under `${ROOT}/demo/input` (just unzip the demo_input.zip).
 * Make `${ROOT}/demo/output` directory.
 * Get SMPL layers and VPoser according to [this](./assets/directory.md#pytorch-smpl-layer-and-vposer).
+* Download `J_regressor_extra.npy` from [here](https://drive.google.com/file/d/1B9e65ahe6TRGv7xE45sScREAAznw9H4t/view?usp=sharing) and place under `${ROOT}/data/`.
+### Running
 * Run `python demo.py --gpu 0`. You can change the input image with `--img_idx {img number}`.
 * A mesh obj, a rendered mesh image, and an input 2d pose are saved under  `${ROOT}/demo/`.
 * The demo images and 2D poses are from [CrowdPose](https://github.com/Jeff-sjtu/CrowdPose) and [HigherHRNet](https://github.com/HRNet/HigherHRNet-Human-Pose-Estimation) respectively.
@@ -27,7 +30,7 @@ Then, run `sh requirements.sh`. You should slightly change `torchgeometry` kerne
 
 
 ## Results
-:sunny: Refer to the paper for diverse qualitative results!  
+:sunny: Refer to the [paper](https://arxiv.org/abs/2104.07300)'s main manuscript and supplementary material for diverse qualitative results!  
 
 ![table](./assets/3dpw_crowd.png)
 ![table](./assets/3dpw.png)
