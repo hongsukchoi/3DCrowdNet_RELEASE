@@ -56,13 +56,14 @@ ${ROOT}
 |   |   |   |-- 3DPW_validation_crowd_hhrnet_result.json
 |   |   |-- imageFiles
 ```  
-* Download `J_regressor_extra.npy` [[data](https://drive.google.com/file/d/1B9e65ahe6TRGv7xE45sScREAAznw9H4t/view?usp=sharing)]
+* Download `J_regressor_*.npy` [[data](https://drive.google.com/drive/folders/187Azod6z13-dS7W5wHerCTgniHYet-yh?usp=sharing)]
 * Download CrowdPose data [[data](https://drive.google.com/drive/folders/1qV5Cx5DJLhJVXlfB0vmQrB3ndJXsTZVM?usp=sharing)]
 * Download Human3.6M parsed data and SMPL parameters [[data](https://drive.google.com/drive/folders/1kgVH-GugrLoc9XyvP6nRoaFpw3TmM5xK?usp=sharing)][[SMPL parameters from SMPLify-X](https://drive.google.com/drive/folders/1s-yywb4zF_OOLMmw1rsYh_VZFilgSrrD?usp=sharing)]
 * Download MuCo parsed/composited data and SMPL parameters [[data](https://drive.google.com/drive/folders/1yL2ey3aWHJnh8f_nhWP--IyC9krAPsQN?usp=sharing)][[SMPL parameters from SMPLify-X](https://drive.google.com/drive/folders/1_JrrbHZICDTe1lqi8S6D_Y1ObmrerAoU?usp=sharing)] 
-* Download MS COCO SMPL parameters [[SMPL parameters from SMPLify-X](https://drive.google.com/drive/folders/1Dkb-q10O9S4gQgKhFTxEtlEPqFTy3GJV?usp=sharing)]
+* Download MS COCO [[data](https://cocodataset.org/#download)] 
 * Download MPII data [[data](https://drive.google.com/drive/folders/1zQZpfNu0s19tA7Z1SmulP1cDaVfNDDd3?usp=sharing)]
 * Download 3DPW parsed data [[data](https://drive.google.com/drive/folders/1pT0Ix3FxieEQf0HhEbMN1o-DWRzw2Ugh?usp=sharing)]
+* Download MS COCO / MPII / CrowdPose SMPL parameters from [NeuralAnnot](https://github.com/mks0601/NeuralAnnot_RELEASE)
 * All annotation files follow [MS COCO format](http://cocodataset.org/#format-data).  
 * If you want to add your own dataset, you have to convert it to [MS COCO format](http://cocodataset.org/#format-data).  
   
