@@ -9,8 +9,10 @@ For example, to reproduce 3DPW-Crowd (Table 5), run
 ```bash  
 python train.py --amp --continue --gpu 0-3 --cfg ../assets/yaml/3dpw_crowd.yml
 ```  
-Remove `--continue` if you don't want to the use pre-trained ResNet-50 weights.
+Remove `--continue` if you don't want to the use pre-trained ResNet-50 weights.  
+Add `--exp_dir` argument to resume training.
 
+> Note: CUDA version may matter on the training time. Normally it takes 2hours per epoch when I used cuda-10.1. But when I use cuda-10.2, it takes 4~6hours per epoch. Pytorch version is 1.6.0.
 
 ### Test  
 Download the experiment directories from [here](https://drive.google.com/drive/folders/19ntGuC0zaXQa3cCN_2Ox_hWYX3nLLP2J?usp=sharing) and place them under `${ROOT}/output/`.  

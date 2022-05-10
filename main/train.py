@@ -10,6 +10,7 @@ def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('--gpu', type=str, dest='gpu_ids')
     parser.add_argument('--continue', dest='continue_train', action='store_true')
+    parser.add_argument('--exp_dir', type=str, default='', help='for resuming train')
     parser.add_argument('--amp', dest='use_mixed_precision', action='store_true', help='use automatic mixed precision training')
     parser.add_argument('--init_scale', type=float, default=1024., help='initial loss scale')
     parser.add_argument('--cfg', type=str, default='', help='experiment configure file name')
@@ -31,7 +32,7 @@ def parse_args():
 def main():
     # argument parse and create log
     args = parse_args()
-    cfg.set_args(args.gpu_ids, args.continue_train)
+    cfg.set_args(args.gpu_ids, args.continue_train, exp_dir=args.exp_dir)
     cudnn.benchmark = True
     if args.cfg:
         cfg.update(args.cfg)
