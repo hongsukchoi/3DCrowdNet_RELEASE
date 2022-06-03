@@ -40,9 +40,9 @@ Then, run `sh requirements.sh`. You should slightly change `torchgeometry` kerne
 Refer to [here](./assets/directory.md).
 
 
-## Running 3DCrowdNet
+## Reproduction
 First finish the directory setting.
-Then, refer to [here](./assets/running.md) to train and test 3DCrowdNet.
+Then, refer to [here](./assets/running.md) to train and evaluate 3DCrowdNet.
 
 
 ## Reference  
