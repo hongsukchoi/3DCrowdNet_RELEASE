@@ -55,4 +55,12 @@ year = {2022}
 }  
 ```
 
+### Related Projects
+
+[I2L-MeshNet_RELEASE](https://github.com/mks0601/I2L-MeshNet_RELEASE)  
+[3DCrowdNet_RELEASE](https://github.com/hongsukchoi/3DCrowdNet_RELEASE)  
+[TCMR_RELEASE](https://github.com/hongsukchoi/TCMR_RELEASE)  
+[Hand4Whole_RELEASE](https://github.com/mks0601/Hand4Whole_RELEASE)  
+[HandOccNet](https://github.com/namepllet/HandOccNet)  
+[NeuralAnnot_RELEASE](https://github.com/mks0601/NeuralAnnot_RELEASE)
 
