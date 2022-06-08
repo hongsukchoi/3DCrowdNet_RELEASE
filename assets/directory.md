@@ -54,7 +54,7 @@ ${ROOT}
 |   |   |   |-- 3DPW_latest_validation.json
 |   |   |   |-- 3DPW_latest_test.json
 |   |   |   |-- 3DPW_validation_crowd_hhrnet_result.json
-|   |   |-- imageFiles
+|   |   |   |-- imageFiles
 ```  
 * Download `J_regressor_*.npy` [[data](https://drive.google.com/drive/folders/187Azod6z13-dS7W5wHerCTgniHYet-yh?usp=sharing)]
 * Download CrowdPose data [[data](https://drive.google.com/drive/folders/1qV5Cx5DJLhJVXlfB0vmQrB3ndJXsTZVM?usp=sharing)]
